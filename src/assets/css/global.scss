@@ -1,0 +1,77 @@
+@import "./variables";
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $background;
+  background: $background-wk;
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 900px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 120%;
+  color: white;
+  margin: 40px 0;
+}
+.todo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  z-index: 10;
+  background-color: rgba($primary, 0.1);
+  border-radius: $rounded-md;
+  box-shadow: $box-shadow;
+  backdrop-filter: blur(2px);
+  padding: 24px;
+}
+.logo-double-container {
+  position: relative;
+  width: 80%;
+}
+.logo-double {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  z-index: 0;
+  filter: grayscale(90%);
+}
+.todo-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+.my-6 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}

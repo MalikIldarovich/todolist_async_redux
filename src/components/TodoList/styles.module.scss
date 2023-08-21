@@ -1,0 +1,15 @@
+@import "../../assets/css/variables";
+
+.todo-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  width: 80%;
+  background-color: $primary;
+  border-radius: $rounded-md;
+  box-shadow: $box-shadow;
+  padding: 24px;
+  margin-top: 24px;
+}

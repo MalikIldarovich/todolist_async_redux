@@ -1,0 +1,36 @@
+@import "../../assets/css/variables";
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  font-size: $fz-lg;
+  font-weight: 600;
+  line-height: 120%;
+  cursor: pointer;
+  border-color: #6b6b6b7c;
+  border-radius: $rounded-md;
+  box-shadow: $box-shadow;
+  padding: 8px 32px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  &.primary {
+    color: $light;
+    background-color: $primary;
+    &:hover {
+      color: $light;
+      background-color: #006685;
+    }
+  }
+  &.secondary {
+    color: $light;
+    background-color: $secondary;
+    &:hover {
+      color: $light;
+      background-color: #005153;
+    }
+  }
+  &.full {
+    width: 100%;
+  }
+}

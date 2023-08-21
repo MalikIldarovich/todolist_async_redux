@@ -1,0 +1,63 @@
+@import "../../assets/css/variables";
+
+.todo-title span {
+  width: 100%;
+  line-height: 120%;
+  text-shadow: $text-shadow;
+  padding: 0;
+  margin: 0;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.xl {
+  font-size: $fz-h1;
+}
+.lg {
+  font-size: $fz-h2;
+}
+.md {
+  font-size: $fz-h3;
+}
+.sm {
+  font-size: $fz-h4;
+}
+.xs {
+  font-size: $fz-h5;
+}
+.dark {
+  color: $dark;
+}
+.light {
+  color: $light;
+}
+.primary {
+  color: $primary;
+}
+.secondary {
+  color: $secondary;
+}
+.success {
+  color: $success;
+}
+.error {
+  color: $error;
+}
+.bold {
+  font-weight: 700;
+}
+.semibold {
+  font-weight: 600;
+}
+.medium {
+  font-weight: 500;
+}
+.normal {
+  font-weight: 400;
+}
